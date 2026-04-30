@@ -1,7 +1,7 @@
 ---
 name: tool-design
 description: Guides naming, consolidation, and output design for agent-facing tools (MCP, function calling, internal APIs). Use when designing new tools, reviewing tool sets, tightening payloads, or when the user mentions agent tools, MCP tools, or tool schemas.
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 # Tool design
