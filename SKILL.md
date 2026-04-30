@@ -1,8 +1,9 @@
 ---
-name: tool-design
+
+## name: tool-design
+
 description: Guides naming, consolidation, and output design for agent-facing tools (MCP, function calling, internal APIs). Use when designing new tools, reviewing tool sets, tightening payloads, or when the user mentions agent tools, MCP tools, or tool schemas.
-disable-model-invocation: true
----
+disable-model-invocation: false
 
 # Tool design
 
@@ -44,8 +45,8 @@ General Good practices: apply KISS, DRY, and Separation of Concerns when develop
 
 ## Quick checklist
 
-- [ ] Name reflects the *goal* in domain vocabulary
-- [ ] Tool count minimized; early-return flow inside one job-shaped entrypoint where it fits
-- [ ] Responses short, stable schema, friendly errors, no internal leakage
-- [ ] Only fields the agent needs next turn
-- [ ] Code KISS/DRY/SoC; comments for non-obvious blocks
+- Name reflects the *goal* in domain vocabulary
+- Tool count minimized; early-return flow inside one job-shaped entrypoint where it fits
+- Responses short, stable schema, friendly errors, no internal leakage
+- Only fields the agent needs next turn
+- Code KISS/DRY/SoC; comments for non-obvious blocks

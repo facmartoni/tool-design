@@ -1,6 +1,6 @@
 # tool-design
 
-Cursor Agent Skill: principles for designing tools that LLM agents (and humans) use—naming, consolidation, safe responses, small payloads, and maintainable code.
+Agent Skill: Principles for designing tools that LLM agents use—naming, consolidation, safe responses, small payloads, and maintainable code.
 
 ## Install (Cursor)
 
@@ -13,7 +13,7 @@ Then reference the skill in chat when designing or reviewing tools, or rely on d
 
 ## Contents
 
-- [`SKILL.md`](SKILL.md) — full instructions for the agent
+- `[SKILL.md](SKILL.md)` — full instructions for the agent
 
 ## License
 
